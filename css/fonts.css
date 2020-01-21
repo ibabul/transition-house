@@ -1,0 +1,14 @@
+@font-face {
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+    font-family: killer;
+}
+
+@font-face {
+    src: url(../fonts/navi-Bold.ttf);
+    font-family: navi;
+}
+
+@font-face {
+    src: url(../fonts/Nosifer-Regular.ttf);
+    font-family: button;
+}

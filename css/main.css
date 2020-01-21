@@ -1,0 +1,138 @@
+/*default Change starts*/
+
+body {
+    background-color: #ffffff;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(1, -2.05, 0, 3.65));
+    transition-delay: 120ms;
+}
+
+a {
+    text-decoration: none;
+    color: #2f3542;
+}
+
+
+/*default Change end*/
+
+.heading {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #dfe4ea;
+    padding: 10px 0;
+}
+
+
+/*left nav styling starts*/
+
+.left-nav>nav>ul>li {
+    list-style-type: none;
+    display: inline;
+    word-spacing: 5rem;
+    font-size: 1.2rem;
+}
+
+.left-nav>nav>ul>li>a {
+    font-family: navi;
+}
+
+.left-nav>nav>ul>li>a:hover,
+.right-nav>nav>ul>li>a:hover {
+    border-bottom: 2px solid #2f3542;
+    transition-duration: 430ms;
+    transition-timing-function: cubic-bezier(0.73, 2.14, 0.82, 1.1);
+}
+
+.left-nav {
+    justify-content: start;
+    flex-basis: auto;
+    flex: 1.5;
+}
+
+
+/*Left nav styling ends here*/
+
+
+/* Logo Styling starts*/
+
+.logo {
+    justify-content: center;
+    flex: 2;
+    text-align: center;
+    font-family: killer;
+    font-size: 20px;
+    letter-spacing: 0.3rem;
+    color: ;
+}
+
+.logo a {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.logo a:hover {
+    letter-spacing: 12px;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(0.76, -2.06, 0, 2.8);
+}
+
+
+/* Logo Styling ends*/
+
+
+/*right nav styling starts*/
+
+.right-nav {
+    justify-content: end;
+    flex-basis: auto;
+    flex: 1.8;
+    font-size: 1.2rem;
+}
+
+.right-nav>nav>ul>li {
+    list-style-type: none;
+    display: inline;
+    word-spacing: 1.8rem;
+}
+
+.right-nav>nav>ul>li>a {
+    font-family: navi;
+}
+
+
+/*right nav styling ends*/
+
+.hero-section {
+    background-image: url(../images/hannah-morgan-ycVFts5Ma4s-unsplash.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+
+.btn {
+    display: block;
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    background-color: #2f3542;
+    padding: 32px;
+    text-transform: uppercase;
+    font-family: navi;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid #2f3542;
+    padding: 32px;
+    color: #2f3542;
+    background-color: #ffffff;
+    transition-duration: 330ms;
+    transition-delay: 130ms;
+    letter-spacing: 6px;
+}
