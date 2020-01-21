@@ -118,12 +118,12 @@ a {
     position: relative;
     top: 50%;
     margin: 0 auto;
-    background-color: #2f3542;
+    background-color: #ffffff;
     padding: 32px;
     text-transform: uppercase;
     font-family: navi;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    color: #2f2f2f;
+    border: 2px solid #2f2f2f;
     cursor: pointer;
 }
 
