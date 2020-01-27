@@ -36,6 +36,7 @@ a {
 
 .left-nav>nav>ul>li>a {
     font-family: navi;
+    padding-bottom: 6px;
 }
 
 .left-nav>nav>ul>li>a:hover,
@@ -43,6 +44,11 @@ a {
     border-bottom: 2px solid #2f3542;
     transition-duration: 430ms;
     transition-timing-function: cubic-bezier(0.73, 2.14, 0.82, 1.1);
+}
+
+.left-nav>nav>ul>li>a:active,
+.right-nav>nav>ul>li>a:active {
+    opacity: 0.4;
 }
 
 .left-nav {
@@ -78,6 +84,10 @@ a {
     transition-timing-function: cubic-bezier(0.76, -2.06, 0, 2.8);
 }
 
+.logo a:active {
+    opacity: 0.4;
+}
+
 
 /* Logo Styling ends*/
 
@@ -99,6 +109,7 @@ a {
 
 .right-nav>nav>ul>li>a {
     font-family: navi;
+    padding-bottom: 6px;
 }
 
 
@@ -110,7 +121,16 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 20px;
+    position: relative;
+}
+
+@keyframes testani {
+    from {
+        top: 0px;
+    }
+    to {
+        bottom: 600px;
+    }
 }
 
 .btn {
@@ -135,4 +155,12 @@ a {
     transition-duration: 330ms;
     transition-delay: 130ms;
     letter-spacing: 6px;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
+
+.btn:active {
+    opacity: 0.4;
+}
+
+
+/*grid styling starts*/

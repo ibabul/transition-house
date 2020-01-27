@@ -12,3 +12,8 @@
     src: url(../fonts/Nosifer-Regular.ttf);
     font-family: button;
 }
+
+@font-face {
+    src: url(../fonts/McLaren-Regular.ttf);
+    font-family: bangers;
+}
